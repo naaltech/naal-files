@@ -1,0 +1,13 @@
+{
+  "name": "naal-files",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --no-warnings main.ts",
+    "test": "node --no-warnings --test \"tests/**/*.test.ts\""
+  }
+}
